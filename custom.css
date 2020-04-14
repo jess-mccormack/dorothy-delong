@@ -10,11 +10,16 @@
     background-color: #404040 !important;
 }
 
+body {
+    min-height: 100vh;
+}
+
 @media (max-width: 767px) { /* MOBILE */
 
     body {
         padding-top: 0;
     }
+
     .navbar.fixed-left {
         height: 80px;
         position: relative;
